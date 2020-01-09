@@ -5,11 +5,12 @@ def line(katz_deli)
   katz_deli.each do |customer|
     deli_count << "#{katz_deli.index(customer) + 1}. #{customer} "
   end
+  # deli_count[deli_count.size - 1] = deli_count.last
 
   if katz_deli.size == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{deli_count.join.chomp}"
+    puts "The line is currently: #{deli_count.join.strip}"
   end
 end
 
