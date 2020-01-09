@@ -16,9 +16,9 @@ end
 
 # puts "The line is currently: #{katz_deli.each_with_index { |customer, index| print "#{index + 1}. #{customer} "}}"
 
-deli_line = ["Logan", "Avi", "Spencer"]
-deli_count = []
-deli_line.each do |customer|
-  deli_count << "#{deli_line.index(customer) + 1}. #{customer} "
-end
-deli_count
+# deli_line = ["Logan", "Avi", "Spencer"]
+# deli_count = []
+# deli_line.each do |customer|
+#   deli_count << "#{deli_line.index(customer) + 1}. #{customer} "
+# end
+# deli_count
