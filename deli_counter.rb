@@ -21,3 +21,4 @@ deli_count = []
 deli_line.each do |customer|
   deli_count << "#{deli_line.index(customer) + 1}. #{customer} "
 end
+deli_count
