@@ -1,4 +1,5 @@
 # Write your code here.
+katz_deli = ["Logan", "Avi", "Spencer"]
 def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
