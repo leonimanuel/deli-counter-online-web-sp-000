@@ -11,5 +11,5 @@ puts "The line is currently: #{katz_deli.each_with_index { |customer, index| pri
 
 deli_line = ["Logan", "Avi", "Spencer"]
 deli_line.each do |customer|
-  "#{deli_line.index(customer) + 1} + ". " + #{customer}"
+  print "#{deli_line.index(customer) + 1} + ". " + #{customer}"
 end
