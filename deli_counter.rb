@@ -7,7 +7,7 @@ def line(katz_deli)
     puts katz_deli.each do |customer|
       "#{katz_deli.index(customer) + 1}. #{customer} "
     end
-    katz_deli.join
+    print katz_deli.join
   end
 end
 
