@@ -20,7 +20,7 @@ def take_a_number(katz_deli, last_person)
 end
 
 def now_serving(katz_deli)
-  if katz_deli.size = 0
+  if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
   else
     puts "Now serving #{katz_deli[0]}!"
