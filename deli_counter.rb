@@ -25,6 +25,7 @@ def now_serving(katz_deli)
   else
     puts "Now serving #{katz_deli[0]}!"
     katz_deli.shift
+  end
 end
 # puts "The line is currently: #{katz_deli.each_with_index { |customer, index| print "#{index + 1}. #{customer} "}}"
 
