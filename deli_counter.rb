@@ -8,6 +8,6 @@ end
 
 
 line = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
-line.each_with_index { |customer, index| "#{index}:#{customer}" }
+line.each_with_index { |customer, index| p "#{index}:#{customer}" }
   puts customer
 end
