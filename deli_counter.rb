@@ -16,7 +16,7 @@ end
 
 def take_a_number(katz_deli, last_person)
   katz_deli << last_person
-  puts "Welcome, #{last_person}. You are number #{katz_deli.size + 1} in line."
+  puts "Welcome, #{last_person}. You are number #{katz_deli.size} in line."
 end
 
 # puts "The line is currently: #{katz_deli.each_with_index { |customer, index| print "#{index + 1}. #{customer} "}}"
