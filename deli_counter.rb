@@ -19,7 +19,7 @@ def take_a_number(katz_deli, last_person)
   puts "Welcome, #{last_person}. You are number #{katz_deli.size} in line."
 end
 
-def now_serving(katz_deli, next_person)
+def now_serving(katz_deli)
 end
 # puts "The line is currently: #{katz_deli.each_with_index { |customer, index| print "#{index + 1}. #{customer} "}}"
 
