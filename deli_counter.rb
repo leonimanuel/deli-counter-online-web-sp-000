@@ -5,7 +5,7 @@ def line(katz_deli)
   else
     puts "The line is currently: #{katz_deli.each do |customer|
       print "#{deli_line.index(customer) + 1}. #{customer} "
-    end
+    end}"
   end
 end
 
