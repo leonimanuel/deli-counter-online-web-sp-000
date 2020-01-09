@@ -11,5 +11,5 @@
 
 deli_line = ["Logan", "Avi", "Spencer"]
 deli_line.each do |customer|
-  print "#{deli_line.index(customer) + 1}. #{customer}"
+  print "#{deli_line.index(customer) + 1}. #{customer} "
 end
